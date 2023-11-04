@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Urbanist:wght@200;300;400;500;600;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Urbanist", sans-serif;
+}
+.container {
+  max-width: 1170px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: auto;
+}
+.sticky_header {
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background: rgb(160, 180, 160);
+  box-shadow: 3px 3px -8px #ddd;
+  z-index: 99;
+}
+
+@media only screen and (max-width: 768px) {
+  .menu {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: none;
+  }
+  .menu ul {
+    width: 15rem;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 200;
+    flex-direction: column;
+    line-height: 30px;
+    justify-content: center;
+    align-items: center;
+    background: rgb(205, 221, 205);
+  }
+  .show_menu {
+    display: block;
+  }
+}
