@@ -22,7 +22,7 @@ const Modal = ({ activeID, setShoeModal }) => {
           </p>
 
           <div className="flex mt-[5] items-center gap-3 flex-wrap">
-            <h4 className="text-[20px] text-black text-[800]">
+            <h4 className="text-[10px] text-black text-[800]">
               technologies :
             </h4>
 

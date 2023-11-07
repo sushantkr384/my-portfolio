@@ -12,13 +12,8 @@ const portfolios = [
     category: "Web Design",
     title: "eCommerce Web App",
     description:
-      "This is a website for online shopping that can be used to react liberally. This is a list of several products that we may add, remove, and add to our cart. The price of each product is added to our cart and is automatically transferred to the section that contains the prices of all of the products. The Products Can Also Be Searched.",
-    technologies: [
-      "React",
-      "Tailwind CSS",
-      "Javascript",
-      "React-redux-toolkit",
-    ],
+      "This is a website for online shopping that can be used to react liberally. This is a list of several products that we may add, remove, and add to our cart. The price of each product is added to our cart and is automatically transferred to the section that contains the prices of all of the products.",
+    technologies: ["React", "Tailwind CSS", "JS", "redux-toolkit"],
     siteUrl: "https://sushant-e-commerce-website.netlify.app",
   },
   {
